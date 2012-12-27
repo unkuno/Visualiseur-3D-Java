@@ -1,0 +1,19 @@
+package scene;
+
+public class Facette3D {
+     private Point s1;
+     private Point s2;
+     private Point s3;
+	  
+     public Facette3D() {
+	  s1= new Point();	       
+	  s2= new Point();
+	  s3= new Point();
+     }
+
+     public Facette3D(Point p1, Point p2, Point p3) {
+	  s1=p1;
+	  s2=p2;
+	  s3=p3;
+     }  
+}
